@@ -1,0 +1,287 @@
+/*!*@font-face {*!*/
+/*!*    font-family: "EbgarRegular";*!*/
+/*!*    font-style: normal;*!*/
+/*!*    font-weight: 400;*!*/
+
+
+/*!*        !* Если не получилось, загрузит woff2 *!*!*/
+/*!*    url("../fonts/ebgaramondmedium.woff2") format("woff2"),*!*/
+/*!*        !* Если браузер не поддерживает woff2, загрузит woff *!*!*/
+/*!*    url("../fonts/ebgaramondmedium.woff") format("woff"),*!*/
+/*!*url("./") format("woff"),*!*/
+/*!*}*!*/
+
+/*!*!* Теперь можно использовать шрифт *!*!*/
+/*!*body {*!*/
+/*!*    font-family: "EbgarRegular" ;*!*/
+/*!*}*!*/
+/*@font-face {*/
+/*    font-family: "Lexend Peta Bold";*/
+/*    src: local("Lexend Peta Bold"),*/
+/*    local("LexendPeta-Bold"),*/
+/*    url("../fonts/ebgaramondmedium.woff") format("woff"),*/
+/*    */
+/*}*/
+header {
+    height: 130px;
+    width: 360px;
+    background-color: black;
+    margin: 0px auto;
+    padding: 24px 20px;
+    display:flex ;
+    justify-content: space-between;
+
+
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+
+}
+.link_header {
+    display: block;
+    color: white;
+}
+img {
+    width: 78px;
+    height: 20px;
+
+}
+.kot {
+    width: 365px;
+    height: 220px;
+  background: url("../images/Group 1.png");
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 72px;
+}
+.kot2{
+    padding: 0px 0px 0px 0px;
+}
+.kot3{
+    padding-left: 50px ;
+}
+.kot4{
+padding-left: 180px;
+}
+ .kot5{
+
+     width: 200px;
+ }
+
+
+
+ .textblock {
+     width: 320px;
+     display: flex;
+     color: white;
+   margin: 50px auto 0px auto ;
+ }
+
+ .textblock2 {
+    width: 320px;
+    display: flex;
+    color: white;
+    margin: 30px auto 0px auto ;
+}
+
+
+ .textblock3 {
+    width: 320px;
+    display: flex;
+    color: white;
+    margin: 20px auto 0px auto ;
+     padding: 0px 0px 40px 0px;
+}
+
+
+.container2 {
+    background-color: yellow;
+    width: 360px;
+    margin: 0px auto 0px auto ;
+    padding: 0px 15px;
+}
+
+.pop {
+font-size: 28px;
+    padding:35px 0px 0px 60px;
+}
+
+.pop2 {
+    font-size: 28px;
+  margin: 0px 0px 20px 0px;
+}
+
+.rep {
+   padding: 0px 0px 0px 20px;
+}
+
+.rep li{
+    padding: 0px 0px 20px 0px;
+}
+
+.container3 {
+    color: white;
+    width: 360px;
+    margin: 0px auto ;
+    padding: 20px 0px 0px 0px;
+
+}
+
+.rok {
+    font-size: 22px;
+ padding: 0px 0px 0px 130px;
+    font-weight: 500;
+}
+
+.rok2 {
+ font-size: 22px;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 20px 0px 20px;
+}
+ .rok3 {
+ padding: 0px 20px;
+ }
+
+.prem {
+    width: 319px;
+    height: 495px;
+    background-color: #343434;
+    margin: 20px auto 0px auto ;
+    border-radius: 30px ;
+    padding: 0px 20px 20px 20px;
+
+}
+ .prem2 {
+     height: 130px;
+     width: 100px;
+     margin: 0px 0px 10px 0px;
+ }
+
+.prem3 {
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 10px 0px;
+
+}
+
+.prem4 {
+    color: white;
+    margin: 0px 0px 10px 0px;
+
+}
+ .prem5 {
+     color: white;
+     line-height: 22px;
+ }
+
+.container4 {
+    width: 319px;
+    height: 358px;
+    background-color: #FEE42A;
+    margin: 20px auto 0px auto ;
+    border-radius: 30px ;
+    padding: 20px 20px 20px 20px;
+}
+
+.sos {
+    font-size: 22px;
+}
+
+.sos1 {
+    font-size: 22px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+.block {
+    width: 319px;
+    height: 559px;
+    background-color: #343434;
+    margin: 20px auto 0px auto ;
+    border-radius: 30px ;
+    padding: 0px 20px 20px 20px;
+}
+
+.block1 {
+    height: 100px;
+    width: 100px;
+    margin: 20px 0px 10px 0px;
+}
+ .block2 {
+     font-weight: bold;
+     color: white;
+     margin: 0px 0px 10px 0px;
+ }
+
+ .block3 {
+     color: white;
+     margin: 0px 0px 10px 0px;
+
+ }
+ .block4 {
+     color: white;
+     line-height: 22px
+
+ }
+
+footer {
+    display: flex;
+    width: 360px;
+    height: 62px;
+    margin: 50px auto 0px auto ;
+    justify-content: space-between;
+    border-top: 1px solid gold;
+    padding: 20px 20px 0px 20px;
+}
+
+.link_footer {
+margin: 0px 0px 0px 20px ;
+}
+
+.kyt {
+
+}
+ .wow {
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    height: 200px;
+    width: 500px;
+    background-color: cyan;
+    margin: 800px 0px 0px 0px;
+    display: flex;
+
+
+}
+
+.kvadrat {
+    height: 100px;
+    width: 100px;
+    background-color: fuchsia;
+    transform: rotateZ(0deg);
+
+}
+
+.kvadrat2 {
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+
+}
