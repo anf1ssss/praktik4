@@ -1,27 +1,20 @@
-/*!*@font-face {*!*/
-/*!*    font-family: "EbgarRegular";*!*/
-/*!*    font-style: normal;*!*/
-/*!*    font-weight: 400;*!*/
 
+@font-face {
+    font-family: "interregular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/interregular.woff2") format("woff2"),
+    url("../fonts/interregular.woff") format("woff");
+}
 
-/*!*        !* Если не получилось, загрузит woff2 *!*!*/
-/*!*    url("../fonts/ebgaramondmedium.woff2") format("woff2"),*!*/
-/*!*        !* Если браузер не поддерживает woff2, загрузит woff *!*!*/
-/*!*    url("../fonts/ebgaramondmedium.woff") format("woff"),*!*/
-/*!*url("./") format("woff"),*!*/
-/*!*}*!*/
+@font-face {
+    font-family: 'ebgaramondregular';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ebgaramondregular.woff2") format("woff2"),
+    url("../fonts/ebgaramondregular.woff2") format("woff");
+}
 
-/*!*!* Теперь можно использовать шрифт *!*!*/
-/*!*body {*!*/
-/*!*    font-family: "EbgarRegular" ;*!*/
-/*!*}*!*/
-/*@font-face {*/
-/*    font-family: "Lexend Peta Bold";*/
-/*    src: local("Lexend Peta Bold"),*/
-/*    local("LexendPeta-Bold"),*/
-/*    url("../fonts/ebgaramondmedium.woff") format("woff"),*/
-/*    */
-/*}*/
 header {
     height: 130px;
     width: 360px;
@@ -36,7 +29,7 @@ header {
 
 body {
     background-color: black;
-    font-family: sans-serif;
+    font-family: 'interregular';
 
 }
 .link_header {
@@ -51,11 +44,12 @@ img {
 .kot {
     width: 365px;
     height: 220px;
-  background: url("../images/Group 1.png");
+    background: url("../images/Group 1.png");
     margin: 0px auto;
     background-repeat: no-repeat;
     color: white;
     font-size: 72px;
+    font-family: 'ebgaramondregular';
 }
 .kot2{
     padding: 0px 0px 0px 0px;
@@ -64,23 +58,23 @@ img {
     padding-left: 50px ;
 }
 .kot4{
-padding-left: 180px;
+    padding-left: 180px;
 }
- .kot5{
+.kot5{
 
-     width: 200px;
- }
+    width: 200px;
+}
 
 
 
- .textblock {
-     width: 320px;
-     display: flex;
-     color: white;
-   margin: 50px auto 0px auto ;
- }
+.textblock {
+    width: 320px;
+    display: flex;
+    color: white;
+    margin: 50px auto 0px auto ;
+}
 
- .textblock2 {
+.textblock2 {
     width: 320px;
     display: flex;
     color: white;
@@ -88,12 +82,12 @@ padding-left: 180px;
 }
 
 
- .textblock3 {
+.textblock3 {
     width: 320px;
     display: flex;
     color: white;
     margin: 20px auto 0px auto ;
-     padding: 0px 0px 40px 0px;
+    padding: 0px 0px 40px 0px;
 }
 
 
@@ -105,17 +99,17 @@ padding-left: 180px;
 }
 
 .pop {
-font-size: 28px;
+    font-size: 28px;
     padding:35px 0px 0px 60px;
 }
 
 .pop2 {
     font-size: 28px;
-  margin: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 .rep {
-   padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 20px;
 }
 
 .rep li{
@@ -132,18 +126,18 @@ font-size: 28px;
 
 .rok {
     font-size: 22px;
- padding: 0px 0px 0px 130px;
+    padding: 0px 0px 0px 130px;
     font-weight: 500;
 }
 
 .rok2 {
- font-size: 22px;
+    font-size: 22px;
     margin: 0px 0px 20px 0px;
     padding: 0px 20px 0px 20px;
 }
- .rok3 {
- padding: 0px 20px;
- }
+.rok3 {
+    padding: 0px 20px;
+}
 
 .prem {
     width: 319px;
@@ -154,11 +148,11 @@ font-size: 28px;
     padding: 0px 20px 20px 20px;
 
 }
- .prem2 {
-     height: 130px;
-     width: 100px;
-     margin: 0px 0px 10px 0px;
- }
+.prem2 {
+    height: 130px;
+    width: 100px;
+    margin: 0px 0px 10px 0px;
+}
 
 .prem3 {
     font-weight: bold;
@@ -172,10 +166,10 @@ font-size: 28px;
     margin: 0px 0px 10px 0px;
 
 }
- .prem5 {
-     color: white;
-     line-height: 22px;
- }
+.prem5 {
+    color: white;
+    line-height: 22px;
+}
 
 .container4 {
     width: 319px;
@@ -210,22 +204,22 @@ font-size: 28px;
     width: 100px;
     margin: 20px 0px 10px 0px;
 }
- .block2 {
-     font-weight: bold;
-     color: white;
-     margin: 0px 0px 10px 0px;
- }
+.block2 {
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px 10px 0px;
+}
 
- .block3 {
-     color: white;
-     margin: 0px 0px 10px 0px;
+.block3 {
+    color: white;
+    margin: 0px 0px 10px 0px;
 
- }
- .block4 {
-     color: white;
-     line-height: 22px
+}
+.block4 {
+    color: white;
+    line-height: 22px
 
- }
+}
 
 footer {
     display: flex;
@@ -238,50 +232,27 @@ footer {
 }
 
 .link_footer {
-margin: 0px 0px 0px 20px ;
+    margin: 0px 0px 0px 20px ;
+    color: white;
+    text-decoration: none;
 }
 
 .kyt {
 
 }
- .wow {
-
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container {
-    height: 200px;
-    width: 500px;
-    background-color: cyan;
-    margin: 800px 0px 0px 0px;
-    display: flex;
-
+.wow {
 
 }
 
-.kvadrat {
-    height: 100px;
-    width: 100px;
-    background-color: fuchsia;
-    transform: rotateZ(0deg);
 
-}
 
-.kvadrat2 {
-    height: 100px;
-    width: 100px;
-    background-color: rosybrown;
 
-}
+
+
+
+
+
+
+
+
+
